@@ -9,7 +9,7 @@ env:
   PROJECT_ID: ${{ vars.GCP_PROJECT_ID || 'gcp-devops-lab-514504' }}
   WIF_PROVIDER: ${{ vars.GCP_WORKLOAD_IDENTITY_PROVIDER || secrets.GCP_WORKLOAD_IDENTITY_PROVIDER }}
   WIF_SERVICE_ACCOUNT: ${{ vars.GCP_SERVICE_ACCOUNT || secrets.GCP_SERVICE_ACCOUNT }}
-  ARTIFACT_REPOSITORY: repo_basic-app
+  ARTIFACT_REPOSITORY: repo-notes-app
   IMAGE_TAG: ${{ github.sha }}
 
 jobs:
