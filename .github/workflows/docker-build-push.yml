@@ -11,7 +11,7 @@ env:
   WIF_SERVICE_ACCOUNT: ${{ vars.GCP_SERVICE_ACCOUNT || secrets.GCP_SERVICE_ACCOUNT }}
   ARTIFACT_REPOSITORY: repo-notes-app
   IMAGE_TAG: ${{ github.sha }}
-
+#test
 jobs:
   deploy:
     runs-on: ubuntu-latest
